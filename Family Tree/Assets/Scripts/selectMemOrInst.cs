@@ -22,13 +22,9 @@ public class selectMemOrInst : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log(gameObject.name);
-        if(this.tag == "Name")
-        {
+        
             im.musicianIdentified(idNumber);
-        }
-        else
-        {
-            im.instrumentIdentified(idNumber);
-        }
+        
+        
     }
 }
